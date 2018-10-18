@@ -1,6 +1,4 @@
 Gandhali Shastri
-UTA ID: 1001548562
-Pyhton
 
 Code structure:
 
