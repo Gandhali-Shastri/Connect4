@@ -1,0 +1,16 @@
+Eval function:
+
+We either get the utilty value as 1, -1 or 0.
+1 = MAX player wins
+-1 = MAX player loses
+0 = Draw
+
+The eval function is called when we reach the depth limit.
+In the eval function, I am checking for connections of 2 or 3 along with 4 connects.
+If the connect is found in either horizontal, vertical or diagonal check; counter is incremented accordingly.
+Then in the eval function, heuristic values are multiplied and added to the connects to get the final score of both the players.
+ 
+ maxValue = (max4Connect * 1)+(max3Connect * 0.6) + (max2Connect * 0.2)
+ minValue = (min4Connect * 1)+(min3Connect * 0.6) + (min2Connect * 0.2)
+ 
+ According to the scores received, the AI player makes the next move.
