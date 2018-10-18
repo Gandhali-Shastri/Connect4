@@ -1,5 +1,4 @@
 #Gandhali Shastri
-#1001548562
 
 import sys
 import os.path
