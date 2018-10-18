@@ -1,7 +1,7 @@
 #References:
 #http://web.mit.edu/sp.268/www/2010/connectFourSlides.pdf
 #http://www.cs.virginia.edu/~evans/poker/wp-content/uploads/2011/01/class2.pptx
-#given pseudocode
+#wiki alpha beta pseudocode
 
 from copy import deepcopy
 import sys
