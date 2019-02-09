@@ -13,8 +13,3 @@ Code structure:
 	iii.	Then the AiPlay function is called and alpha beta search is performed with the given depth limit.
 	iv. 	Eval() will give the final score and the next move will be done accordingly.
 
-
-Running the code on Omega:
-	Type the following command: 
-		python maxconnect4.py one-move input1.txt output1.txt 10
-		python maxconnect4.py interactive input1.txt computer-next 7
